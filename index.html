@@ -5,10 +5,40 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Карточная игра "Найди пару"</title>
+  <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/styles.css">
   <script defer src="./js/index.js"></script>
 </head>
 <body>
+  <div class="container app__container">
+    <header class="header">
+      <div class="container header__container">
+        <ul class="header__btn-list list-reset">
+          <li class="header__list-item">
+            <button class="header__btn header__btn--rules btn-reset">Правила</button>
+          </li>
+          <li class="header__list-item">
+            <button class="header__btn header__btn--settings btn-reset">Настройки</button>
+          </li>
+        </ul>
+        <h1 class="header__title title">НАЙДИ ПАРУ</h1>
+        <ul class="header__list list-reset">
+          <li class="header__list-item">
+            <button class="header__btn header__btn--start btn-reset">Начать</button>
+          </li>
+          <li class="header__list-item">
+            <div class="header__timer">00:00</div>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main class="main">
+      <section class="game">
+        <div class="container game__container" id="game-container">
 
+        </div>
+      </section>
+    </main>
+  </div>
 </body>
 </html>
